@@ -1,0 +1,37 @@
+.header {
+	height: 70dvh;
+	background-image: url(/img/1335147.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.header::before {
+	content: '';
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	width: 30%;
+	height: 30%;
+	background-image: url(/img/bg9.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.section {
+	background-color: #00000030;
+	padding-block: 3em;
+}
+
+.container {
+	padding-inline: 1em;
+	max-width: 1200px;
+	margin-inline: auto;
+}
+
+.error {
+	text-align: center;
+	margin: 0;
+	color: #fb99;
+	font-size: small;
+}

@@ -1,0 +1,13 @@
+.residents {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	grid-template-rows: auto;
+	gap: 20px;
+}
+
+.not--fount {
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 24px;
+}
